@@ -36,6 +36,11 @@ namespace FifaChampionshipWP
 
         }
 
+        private void ButtonPlayers_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new Uri("/PlayersPage.xaml", UriKind.RelativeOrAbsolute) );
+        }
+
         // Sample code for building a localized ApplicationBar
         //private void BuildLocalizedApplicationBar()
         //{
