@@ -22,6 +22,8 @@ namespace FifaChampionshipWP
             ShowSplashScreen.Show(new SplashScreen());
             InitializeComponent();
 
+
+            //teste 
             // Sample code to localize the ApplicationBar
             //BuildLocalizedApplicationBar();
         }
