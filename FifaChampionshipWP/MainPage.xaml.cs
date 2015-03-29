@@ -8,18 +8,32 @@ using System.Windows.Navigation;
 using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
 using FifaChampionshipWP.Resources;
+using System.Windows.Controls.Primitives;
+using System.ComponentModel;
 
 namespace FifaChampionshipWP
 {
     public partial class MainPage : PhoneApplicationPage
     {
+
         // Constructor
         public MainPage()
         {
+            ShowSplashScreen.Show(new SplashScreen());
             InitializeComponent();
 
             // Sample code to localize the ApplicationBar
             //BuildLocalizedApplicationBar();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+
         }
 
         // Sample code for building a localized ApplicationBar
