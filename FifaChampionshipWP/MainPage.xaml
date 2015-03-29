@@ -20,7 +20,7 @@
         <Button HorizontalAlignment="Left" Margin="0,50,0,0" VerticalAlignment="Top" Height="246" Width="480" Click="Button_Click_1" Background="#FFEEEE18"/>
         <Button x:Name="ButtonPlayers" HorizontalAlignment="Left" Margin="0,291,0,0" VerticalAlignment="Top" Height="235" Width="244" RenderTransformOrigin="0.507,1.464" Background="#FF14A00D" Click="ButtonPlayers_Click">
             <Button.Content>
-                <Image Source="Resources/controlers.png"></Image>
+                <Image Source="Assets/AppBar/controlers.png" Stretch="Fill"/>
             </Button.Content>
         </Button>
         <Button Content="configurações" Margin="236,514,0,0" VerticalAlignment="Top" Height="235" RenderTransformOrigin="0.507,1.464" Background="#FF878B86"/>

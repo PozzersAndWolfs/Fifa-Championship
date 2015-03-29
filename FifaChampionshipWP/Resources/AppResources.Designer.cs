@@ -88,16 +88,6 @@ namespace FifaChampionshipWP.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Byte[].
-        /// </summary>
-        public static byte[] controlers {
-            get {
-                object obj = ResourceManager.GetObject("controlers", resourceCulture);
-                return ((byte[])(obj));
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to LeftToRight.
         /// </summary>
         public static string ResourceFlowDirection {
