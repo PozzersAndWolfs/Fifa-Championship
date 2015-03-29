@@ -18,7 +18,11 @@
     </phone:PhoneApplicationPage.Foreground>
     <Grid HorizontalAlignment="Left" Height="768" VerticalAlignment="Top" Width="480" Background="Black">
         <Button HorizontalAlignment="Left" Margin="0,50,0,0" VerticalAlignment="Top" Height="246" Width="480" Click="Button_Click_1" Background="#FFEEEE18"/>
-        <Button x:Name="ButtonPlayers" Content="jogadores" HorizontalAlignment="Left" Margin="0,291,0,0" VerticalAlignment="Top" Height="235" Width="244" RenderTransformOrigin="0.507,1.464" Background="#FF14A00D" Click="ButtonPlayers_Click"/>
+        <Button x:Name="ButtonPlayers" HorizontalAlignment="Left" Margin="0,291,0,0" VerticalAlignment="Top" Height="235" Width="244" RenderTransformOrigin="0.507,1.464" Background="#FF14A00D" Click="ButtonPlayers_Click">
+            <Button.Content>
+                <Image Source="Resources/controlers.png"></Image>
+            </Button.Content>
+        </Button>
         <Button Content="configurações" Margin="236,514,0,0" VerticalAlignment="Top" Height="235" RenderTransformOrigin="0.507,1.464" Background="#FF878B86"/>
         <Button Content="histórico" HorizontalAlignment="Left" Margin="0,514,0,0" VerticalAlignment="Top" Height="235" Width="244" RenderTransformOrigin="0.507,1.464" Background="#FF932121"/>
         <Button Content="ranking" Margin="236,291,0,0" VerticalAlignment="Top" Height="235" RenderTransformOrigin="0.507,1.464" Background="#FF2FA7C1"/>
