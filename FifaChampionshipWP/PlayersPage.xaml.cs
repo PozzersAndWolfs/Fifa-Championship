@@ -37,7 +37,7 @@ namespace FifaChampionshipWP
 
         void appBarButton_Click(object sender, EventArgs e)
         {
-            
+            NavigationService.Navigate(new Uri("/NewPlayerPage.xaml", UriKind.RelativeOrAbsolute));
         }
     }
 }

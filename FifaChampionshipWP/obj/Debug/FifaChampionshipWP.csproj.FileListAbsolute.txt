@@ -19,3 +19,4 @@ c:\users\pedrohenrique\documents\visual studio 2012\Projects\FifaChampionshipWP\
 c:\users\pedrohenrique\documents\visual studio 2012\Projects\FifaChampionshipWP\FifaChampionshipWP\obj\Debug\XapCacheFile.xml
 C:\Users\PedroHenrique\Documents\Visual Studio 2012\Projects\FifaChampionshipWP\FifaChampionshipWP\obj\Debug\SplashScreen.g.cs
 C:\Users\PedroHenrique\documents\visual studio 2012\Projects\FifaChampionshipWP\FifaChampionshipWP\obj\Debug\PlayersPage.g.cs
+C:\Users\PedroHenrique\Documents\Visual Studio 2012\Projects\FifaChampionshipWP\FifaChampionshipWP\obj\Debug\NewPlayerPage.g.cs
