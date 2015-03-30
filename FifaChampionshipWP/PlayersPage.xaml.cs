@@ -25,7 +25,7 @@ namespace FifaChampionshipWP
             ApplicationBar = new ApplicationBar();
 
             // Create a new button and set the text value to the localized string from AppResources.
-            ApplicationBarIconButton appBarButton = new ApplicationBarIconButton(new Uri("/Assets/AppBar/appbar.add.rest.png", UriKind.Relative));
+            ApplicationBarIconButton appBarButton = new ApplicationBarIconButton(new Uri("/Assets/AppBar/add.png", UriKind.Relative));
             appBarButton.Text = "novo";
             appBarButton.Click += appBarButton_Click;
             ApplicationBar.Buttons.Add(appBarButton);
