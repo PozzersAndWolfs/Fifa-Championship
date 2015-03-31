@@ -12,14 +12,17 @@ namespace FifaChampionshipWP
 {
     public partial class NewPlayer : PhoneApplicationPage
     {
+
         public NewPlayer()
         {
             InitializeComponent();
+            Transitions.UseSlideTransition(this, SlideTransitionMode.SlideUpFadeIn, SlideTransitionMode.SlideUpFadeOut);
+            
         }
 
         private void CheckBox_Checked(object sender, RoutedEventArgs e)
         {
-
+            
         }
     }
 }

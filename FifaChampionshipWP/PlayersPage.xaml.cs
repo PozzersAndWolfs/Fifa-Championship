@@ -16,6 +16,8 @@ namespace FifaChampionshipWP
         {
             InitializeComponent();
             this.BuildLocalizedApplicationBar();
+            Transitions.UseTurnstileTransition(this);
+
         }
 
         // Sample code for building a localized ApplicationBar
@@ -37,7 +39,10 @@ namespace FifaChampionshipWP
 
         void appBarButton_Click(object sender, EventArgs e)
         {
+           
+
             NavigationService.Navigate(new Uri("/NewPlayerPage.xaml", UriKind.RelativeOrAbsolute));
+
         }
     }
 }
