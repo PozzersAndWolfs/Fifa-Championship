@@ -13,7 +13,7 @@
     SupportedOrientations="Portrait" Orientation="Portrait"
     mc:Ignorable="d"
     shell:SystemTray.IsVisible="True">
-   
+
     <!--LayoutRoot is the root grid where all page content is placed-->
     <Grid x:Name="LayoutRoot" Background="Transparent">
         <Grid.RowDefinitions>
@@ -27,7 +27,10 @@
         </StackPanel>
 
         <!--ContentPanel - place additional content here-->
-        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0" >
+            <ScrollViewer VerticalAlignment="Stretch">
+            <StackPanel x:Name="StackPanelPlayers" HorizontalAlignment="Left" Height="615" Margin="-2,6,0,0" VerticalAlignment="Top" Width="455"/>
+            </ScrollViewer>
 
         </Grid>
     </Grid>

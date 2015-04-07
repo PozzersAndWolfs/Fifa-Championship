@@ -1,10 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net;
-using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Navigation;
+using System.Data.Linq.Mapping;
 using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
 
@@ -18,6 +13,27 @@ namespace FifaChampionshipWP
             this.BuildLocalizedApplicationBar();
             Transitions.UseTurnstileTransition(this);
 
+            PlayersList players = new PlayersList();
+
+            this.StackPanelPlayers.Children.Add(players);
+            PlayersList players2 = new PlayersList();
+            this.StackPanelPlayers.Children.Add(players2);
+            PlayersList players3 = new PlayersList();
+            this.StackPanelPlayers.Children.Add(players3);
+            PlayersList players4 = new PlayersList();
+            this.StackPanelPlayers.Children.Add(players4);
+            PlayersList players5 = new PlayersList();
+            this.StackPanelPlayers.Children.Add(players5);
+            PlayersList players6 = new PlayersList();
+            this.StackPanelPlayers.Children.Add(players6);
+            PlayersList players7 = new PlayersList();
+            this.StackPanelPlayers.Children.Add(players7);
+            PlayersList players8 = new PlayersList();
+            this.StackPanelPlayers.Children.Add(players8);
+            PlayersList players9 = new PlayersList();
+            this.StackPanelPlayers.Children.Add(players9);
+            PlayersList players10 = new PlayersList();
+            this.StackPanelPlayers.Children.Add(players10);
         }
 
         // Sample code for building a localized ApplicationBar
@@ -31,18 +47,12 @@ namespace FifaChampionshipWP
             appBarButton.Text = "novo";
             appBarButton.Click += appBarButton_Click;
             ApplicationBar.Buttons.Add(appBarButton);
-
-            // Create a new menu item with the localized string from AppResources.
-            //ApplicationBarMenuItem appBarMenuItem = new ApplicationBarMenuItem(AppResources.AppBarMenuItemText);
-            //ApplicationBar.MenuItems.Add(appBarMenuItem);
         }
 
         void appBarButton_Click(object sender, EventArgs e)
         {
-           
-
             NavigationService.Navigate(new Uri("/NewPlayerPage.xaml", UriKind.RelativeOrAbsolute));
-
+            
         }
     }
 }

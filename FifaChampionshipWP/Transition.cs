@@ -1,14 +1,9 @@
-﻿using Microsoft.Phone.Controls;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
+﻿using System.Windows;
+using Microsoft.Phone.Controls;
 
 namespace FifaChampionshipWP
 {
-    public class Transitions
+    public static class Transitions
     {
 
         /// <summary>
