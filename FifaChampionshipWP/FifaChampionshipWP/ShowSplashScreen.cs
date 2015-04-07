@@ -20,6 +20,7 @@ namespace FifaChampionshipWP
             _popup.Child = screen;
             _popup.IsOpen = true;
             StartLoadingData();
+            //teste
         }
 
         private static void StartLoadingData()
