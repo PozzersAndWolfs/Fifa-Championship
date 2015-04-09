@@ -2,9 +2,9 @@
 
 namespace FifaChampionshipWP
 {
-    public partial class SplashScreen : PhoneApplicationPage
+    public partial class SplashScreenPage : PhoneApplicationPage
     {
-        public SplashScreen()
+        public SplashScreenPage()
         {
             InitializeComponent();
         }

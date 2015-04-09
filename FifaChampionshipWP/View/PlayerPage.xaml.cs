@@ -10,9 +10,9 @@ using Microsoft.Phone.Shell;
 
 namespace FifaChampionshipWP
 {
-    public partial class PlayersList : UserControl
+    public partial class PlayerPage : UserControl
     {
-        public PlayersList()
+        public PlayerPage()
         {
             InitializeComponent();
         }

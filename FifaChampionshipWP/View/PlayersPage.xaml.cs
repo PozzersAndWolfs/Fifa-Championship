@@ -13,26 +13,26 @@ namespace FifaChampionshipWP
             this.BuildLocalizedApplicationBar();
             Transitions.UseTurnstileTransition(this);
 
-            PlayersList players = new PlayersList();
+            PlayerPage players = new PlayerPage();
 
             this.StackPanelPlayers.Children.Add(players);
-            PlayersList players2 = new PlayersList();
+            PlayerPage players2 = new PlayerPage();
             this.StackPanelPlayers.Children.Add(players2);
-            PlayersList players3 = new PlayersList();
+            PlayerPage players3 = new PlayerPage();
             this.StackPanelPlayers.Children.Add(players3);
-            PlayersList players4 = new PlayersList();
+            PlayerPage players4 = new PlayerPage();
             this.StackPanelPlayers.Children.Add(players4);
-            PlayersList players5 = new PlayersList();
+            PlayerPage players5 = new PlayerPage();
             this.StackPanelPlayers.Children.Add(players5);
-            PlayersList players6 = new PlayersList();
+            PlayerPage players6 = new PlayerPage();
             this.StackPanelPlayers.Children.Add(players6);
-            PlayersList players7 = new PlayersList();
+            PlayerPage players7 = new PlayerPage();
             this.StackPanelPlayers.Children.Add(players7);
-            PlayersList players8 = new PlayersList();
+            PlayerPage players8 = new PlayerPage();
             this.StackPanelPlayers.Children.Add(players8);
-            PlayersList players9 = new PlayersList();
+            PlayerPage players9 = new PlayerPage();
             this.StackPanelPlayers.Children.Add(players9);
-            PlayersList players10 = new PlayersList();
+            PlayerPage players10 = new PlayerPage();
             this.StackPanelPlayers.Children.Add(players10);
         }
 
